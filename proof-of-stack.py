@@ -1,5 +1,15 @@
 import random
 
+"""
+Proof of Stake (PoS) Simulation
+
+Description:
+Selects validator based on stake proportion.
+
+Selection Probability:
+Stake_i / Total_Stake
+"""
+
 validators = {
     "Alice": 50,
     "Bob": 30,

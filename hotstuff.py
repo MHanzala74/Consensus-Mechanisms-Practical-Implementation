@@ -1,6 +1,20 @@
 import random
 
+"""
+HotStuff Consensus Simulation
+
+Description:
+Optimized Byzantine Fault Tolerance protocol.
+Uses vote aggregation instead of full broadcast.
+
+Safety Condition:
+n >= 3f + 1
+
+Complexity:
+O(n)
+"""
 class HotStuff:
+    """Simplified HotStuff simulation."""
     def __init__(self, n, f):
         assert n >= 3*f + 1
         self.n = n

@@ -1,6 +1,19 @@
 import random
 
+"""
+PBFT (Practical Byzantine Fault Tolerance) Simulation
+
+Description:
+Simulates 3-phase PBFT protocol:
+1. Pre-Prepare
+2. Prepare
+3. Commit
+
+Safety Condition:
+n >= 3f + 1
+"""
 class PBFT:
+    """Simple PBFT simulation."""
     def __init__(self, n, f):
         assert n >= 3*f + 1, "Safety violated (n >= 3f+1)"
         self.n = n

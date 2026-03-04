@@ -1,5 +1,13 @@
 import random
 
+"""
+Delegated Proof of Stake (DPoS) Simulation
+
+Description:
+Token holders vote for delegates.
+Top N delegates are selected.
+"""
+
 token_holders = {
     "User1": 100,
     "User2": 50,
